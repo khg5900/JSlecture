@@ -1,0 +1,21 @@
+.a {
+  display: flex;
+  background-color: teal;
+  /* justify-content: space-around; 1대 2대 2대 1 비율*/
+  /* justify-content: space-evenly; */
+  width: 100vw;
+  height: 800px;
+  /* align-items: end; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+.b {
+  background-color: mintcream;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
