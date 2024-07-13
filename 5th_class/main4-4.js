@@ -17,3 +17,4 @@ for (let drinkName in drinkPriceObj) {
   }
 }
 console.log(`${drinkPriceObj[drinkName]}원`);
+// 수정 필요
