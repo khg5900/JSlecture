@@ -14,8 +14,10 @@ function plus(num1, num2) {
 function minNum(num1, num2) {
   if (num1 < num2) {
     return num1;
-  } else {
+  } else if (num1 > num2) {
     return num2;
+  } else {
+    return `두 숫자는 같습니다.`;
   }
   //   return num1 > num2 ? num2 : num1;  삼항연산자
 }
