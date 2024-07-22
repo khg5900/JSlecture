@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(135deg, tomato);
+}
+.bar1 {
+  background-color: black;
+  height: 1px;
+  width: 50px;
+}
+.bar2 {
+  background-color: black;
+  height: 1px;
+  width: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
