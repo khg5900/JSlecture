@@ -150,12 +150,22 @@ header {
 
 .right-panel .player-controls {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
+    
 }
-
-.play-button {
-    background-color: #1db954;
+.right-panel .right-before {
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+}
+.right-panel .right-next {
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+.right-panel .play-button {
+    background-color: black;
     color: white;
     border: none;
     width: 50px;
