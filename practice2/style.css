@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-panel, .right-panel {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 600px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.back-button, .search-button, .more-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.artist-info {
+    text-align: center;
+}
+
+.artist-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 auto 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.shuffle-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.like-score {
+    display: flex;
+    gap: 5px;
+}
+
+.song-list {
+    list-style-type: none;
+    padding: 0;
+}
+.song-sort{
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+.song-detail {
+    display: flex;
+}
+.song-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ddd;
+    margin-right: 10px;
+}
+.song-name {
+    display: flex;
+    align-items: center;
+}
+.song-more {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.player {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.album-art {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #ddd;
+    margin: 0 auto 20px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    height: 4px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.progress {
+    background-color: #1db954;
+    height: 100%;
+    width: 70%;
+}
+
+.current-time, .total-time {
+    position: absolute;
+    top: 10px;
+    font-size: 12px;
+}
+
+.current-time {
+    left: 0;
+}
+
+.total-time {
+    right: 0;
+}
+
+.right-panel .player-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.play-button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+}
