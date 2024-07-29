@@ -1,0 +1,26 @@
+const translations = {
+  ko: {
+    pageTitle: "다국어 웹사이트",
+    welcome: "환영합니다",
+    home: "홈",
+    about: "소개",
+    services: "서비스",
+    contact: "연락처",
+    mainContent: "메인 콘텐츠",
+    description: "이 웹사이트는 다국어를 지원합니다.",
+    language: "언어 선택:",
+    copyright: "© 2024 다국어 웹사이트. All rights reserved.",
+  },
+  ja: {
+    pageTitle: "多言語ウェブサイト",
+    welcome: "ようこそ",
+    home: "ホーム",
+    about: "紹介",
+    services: "サービス",
+    contact: "連絡先",
+    mainContent: "メインコンテンツ",
+    description: "このウェブサイトは多言語をサポートしています。",
+    language: "言語選択:",
+    copyright: "© 2024 多言語ウェブサイト. All rights reserved.",
+  },
+};

@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-box {
+  width: 80vw;
+  min-height: 80vh;
+  background-color: rgb(255, 111, 135);
+  box-shadow: 1px 1px 5px rgb(255, 46, 81);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-title {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 10px rgb(255, 46, 81);
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 30px 0 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-content {
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(255, 46, 81);
+  width: 80%;
+  height: 80px;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+.my-content-title {
+  /* 포인트 */
+  width: 20%;
+  margin: 0px 10px;
+}
+.my-city,
+.my-weather {
+  /* 포인트 */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.seper {
+  height: 20px;
+}
+.city-content {
+  box-shadow: 1px 1px 10px rgb(255, 62, 94);
+  background-color: white;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+.city-name {
+  /* 포인트 */
+  width: 20%;
+  margin: 0px 10px;
+}
+.city-weather {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}

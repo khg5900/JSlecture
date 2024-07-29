@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-translate="pageTitle">다국어 웹사이트</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 data-translate="welcome">환영합니다</h1>
+      <nav>
+        <ul>
+          <li><a href="#" data-translate="home">홈</a></li>
+          <li><a href="#" data-translate="about">소개</a></li>
+          <li><a href="#" data-translate="services">서비스</a></li>
+          <li><a href="#" data-translate="contact">연락처</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2 data-translate="mainContent">메인 콘텐츠</h2>
+        <p data-translate="description">이 웹사이트는 다국어를 지원합니다.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <label data-translate="language">언어 선택:</label>
+        <select id="languageSelect" onchange="setLanguage(this.value)">
+          <option value="ko">한국어</option>
+          <option value="ja">日本語</option>
+        </select>
+      </div>
+      <p data-translate="copyright">
+        © 2024 다국어 웹사이트. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

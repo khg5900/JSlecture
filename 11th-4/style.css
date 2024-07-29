@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #fae100;
+}
+
+.map-title {
+  font-size: 30px;
+  margin: 20px;
+  font-weight: bolder;
+  color: #371d1e;
+}
+
+.map {
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  margin: 0px 20px;
+  box-shadow: 1px 1px 5px #b7a500;
+}
