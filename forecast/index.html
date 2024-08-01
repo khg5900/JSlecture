@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도시 날씨 정보</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <button onclick="getWeather('Osaka')">Osaka</button>
+            <button onclick="getWeather('Tokyo')">Tokyo</button>
+            <button onclick="getWeather('Seoul')">Seoul</button>
+            <button onclick="getWeather('Jeju')">Jeju</button>
+        </div>
+        <div class="weather-card" >
+            <div class="weather-icon"></div>
+            <div class="temperature"></div>
+            <div class="city"></div>
+            <div class="description"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
